@@ -1,0 +1,4 @@
+# Ignore Xcode User Data
+xcuserdata/
+.DS_Store
+**/xcuserdata/
