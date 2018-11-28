@@ -11,32 +11,6 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-
-    @IBAction func swipeRight(_ sender: Any) {
-        self.mainScene?.swipeRight()
-    }
-    
-    @IBAction func swipeLeft(_ sender: Any) {
-        self.mainScene?.swipeLeft()
-    }
-    
-    
-    @IBAction func swipeDown(_ sender: Any) {
-        self.mainScene?.swipeDown()
-    }
-    
-    
-    @IBAction func swipeUp(_ sender: Any) {
-        self.mainScene?.swipeUp()
-    }
-    
-    @IBAction func doubleTap(_ sender: Any) {
-        
-        let haptic = WKInterfaceDevice()
-        haptic.play(.click)
-        
-        self.mainScene?.tap()
-    }
     
     @IBOutlet weak var sceneOutlet: WKInterfaceSKScene!
     var mainScene : MainScene?

@@ -174,12 +174,20 @@
 		761117A921ADD38400B4A7E9 /* SpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				761117B821AEE08500B4A7E9 /* Actions */,
 				761117AA21ADD39E00B4A7E9 /* MainScene.sks */,
-				761117AC21ADD5E100B4A7E9 /* PlayerAction.sks */,
 				761117AE21ADD73600B4A7E9 /* MainScene.swift */,
-				761117B221ADE49C00B4A7E9 /* MiscActions.sks */,
 			);
 			path = SpriteKit;
+			sourceTree = "<group>";
+		};
+		761117B821AEE08500B4A7E9 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				761117AC21ADD5E100B4A7E9 /* PlayerAction.sks */,
+				761117B221ADE49C00B4A7E9 /* MiscActions.sks */,
+			);
+			path = Actions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

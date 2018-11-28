@@ -14,35 +14,7 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="hapticAndGestures_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <spriteKitScene width="1" height="1" alignment="center" verticalAlignment="center" scene="MainScene.sks" id="qga-cj-v5R">
-                            <gestureRecognizers>
-                                <swipeGestureRecognizer id="gPq-uh-shR">
-                                    <connections>
-                                        <action selector="swipeRight:" destination="AgC-eL-Hgc" id="ZDv-hi-wUo"/>
-                                    </connections>
-                                </swipeGestureRecognizer>
-                                <swipeGestureRecognizer direction="2" id="mfH-UR-9KZ">
-                                    <connections>
-                                        <action selector="swipeLeft:" destination="AgC-eL-Hgc" id="u81-f1-Dqu"/>
-                                    </connections>
-                                </swipeGestureRecognizer>
-                                <swipeGestureRecognizer direction="8" id="a1c-rO-eXb">
-                                    <connections>
-                                        <action selector="swipeDown:" destination="AgC-eL-Hgc" id="Plp-Ax-fbo"/>
-                                    </connections>
-                                </swipeGestureRecognizer>
-                                <swipeGestureRecognizer direction="4" id="Agl-4x-fsP">
-                                    <connections>
-                                        <action selector="swipeUp:" destination="AgC-eL-Hgc" id="qpB-kW-t5p"/>
-                                    </connections>
-                                </swipeGestureRecognizer>
-                                <tapGestureRecognizer numberOfTapsRequired="2" id="TLC-Y5-d6s">
-                                    <connections>
-                                        <action selector="doubleTap:" destination="AgC-eL-Hgc" id="fnX-rn-oSz"/>
-                                    </connections>
-                                </tapGestureRecognizer>
-                            </gestureRecognizers>
-                        </spriteKitScene>
+                        <spriteKitScene width="1" height="1" alignment="center" verticalAlignment="center" scene="MainScene.sks" id="qga-cj-v5R"/>
                     </items>
                     <connections>
                         <outlet property="sceneOutlet" destination="qga-cj-v5R" id="pY9-oP-kl1"/>
